@@ -1,64 +1,69 @@
 <!DOCTYPE html>
 
 <html>
-  <head>
-    <title>Twitter &hearts; Open Source</title>
-    <link rel="stylesheet" type="text/css" href="assets/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/grid.css">
-    <link rel="stylesheet" type="text/css" href="assets/style.css">
-    <link href="//abs.twimg.com/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon">
-    <link rel="mask-icon" sizes="any" href="https://abs.twimg.com/a/1468984401/img/t1/favicon.svg" color="#55acee">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A listing of Repositories from Chewsterchew.">
+<head>
+  <title>Twitter &hearts; Open Source</title>
+  <link rel="stylesheet" type="text/css" href="assets/reset.css">
+  <link rel="stylesheet" type="text/css" href="assets/grid.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <link href="//abs.twimg.com/favicons/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  <link rel="mask-icon" sizes="any" href="https://abs.twimg.com/a/1468984401/img/t1/favicon.svg" color="#55acee">
 
-    <meta name="twitter:url" content="https://chew.pro/Repositories" />
-    <meta name="twitter:creator" content="@ChewCraft" />
-    <meta name="twitter:site" content="@ChewCraft" />
-    <meta name="twitter:title" content="Chew's Repositories" />
-    <meta name="twitter:description" content="A listing of Repositories from Chewsterchew." />
-    <meta name="twitter:card" content="summary" />
-  </head>
-  <body>
-    <div id="wrapper" class="grid clearfix">
-      <div id="main" class="grid-1">
-        <div id="logo"><h1>Chew's Repositories</h1></div>
-        <h1>The best list of all of Chew's Repositories.</h1>
-      </div>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A listing of Repositories from Chewsterchew.">
 
-      <div class="grid grid-3">
-        <div id="statistics" class="grid-1 alpha header">
-          <h1>Statistics</h1>
-          <p>
-            <a href="https://github.com/Chewsterchew/repositories"><span id="num-repos"><img src="assets/spinner.gif" /></span> public repos</a>
-            <br>
-            <a href="https://github.com/Chewsterchew?tab=followers"><span id="num-members"><img src="assets/spinner.gif" /></span> followers</a
+  <meta name="twitter:url" content="https://chew.pro/Repositories" />
+  <meta name="twitter:creator" content="@ChewCraft" />
+  <meta name="twitter:site" content="@ChewCraft" />
+  <meta name="twitter:title" content="Chew's Repositories" />
+  <meta name="twitter:description" content="A listing of Repositories from Chewsterchew." />
+  <meta name="twitter:card" content="summary" />
+</head>
+
+<body>
+  <div id="wrapper" class="grid clearfix">
+    <div id="main" class="grid-1">
+      <div id="logo">
+        <h1>Chew's Repositories</h1></div>
+      <h1>The best list of all of Chew's Repositories.</h1>
+    </div>
+
+    <div class="grid grid-3">
+      <div id="statistics" class="grid-1 alpha header">
+        <h1>Statistics</h1>
+        <p>
+          <a href="https://github.com/Chewsterchew/repositories"><span id="num-repos"><img src="assets/spinner.gif" /></span> public repos</a>
+          <br>
+          <a href="https://github.com/Chewsterchew?tab=followers"><span id="num-members"><img src="assets/spinner.gif" /></span> followers</a
           </p>
         </div>
 
         <div id="recently-updated" class="grid-2 omega header">
           <h1>Recently updated <a href="https://github.com/Chewsterchew/repositories">View All on GitHub</a></h1>
           <ol id="recently-updated-repos"></ol>
-        </div>
       </div>
-
-      <ol id="repos"></ol>
     </div>
-    <script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-39101739-1']);
-  _gaq.push(['_trackPageview']);
+    <ol id="repos"></ol>
+  </div>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39101739-1']);
+    _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+    (function() {
+      var ga = document.createElement('script');
+      ga.type = 'text/javascript';
+      ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+  <script type="text/javascript" src="assets/jquery-1.7.1.min.js"></script>
+  <script type="text/javascript" src="assets/strftime.js"></script>
+  <script type="text/javascript" src="assets/garbage.js"></script>
+</body>
 
-    </script>
-    <script type="text/javascript" src="assets/jquery-1.7.1.min.js"></script>
-    <script type="text/javascript" src="assets/strftime.js"></script>
-    <script type="text/javascript" src="assets/garbage.js"></script>
-  </body>
 </html>
